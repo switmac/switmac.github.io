@@ -2,7 +2,7 @@ body {
     margin-top: 0px !important;
 }
 
-#render-target {
+.content {
     background: #a1dbff repeat;
     background: -moz-linear-gradient(top, #f0f9ff 0%, #cbebff 52%, #a1dbff  100%) repeat;
     background: -webkit-linear-gradient(top, #f0f9ff 0%, #cbebff 52%, #a1dbff  100%) repeat;
