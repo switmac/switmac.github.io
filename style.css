@@ -17,10 +17,13 @@ body {
     background: url('http://image.prntscr.com/image/8ec8e1ecda8c445194fe45b1d7b94a97.png');
     animation: wave 5s infinite;
     height: 155px;
-    width: 850px;
+    width: inherit;
     margin : auto;
 }
 
+.text img {
+    width: 100%;
+}
 
 @keyframes wave {
     from {
