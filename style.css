@@ -176,18 +176,18 @@ div.color:hover {
 }
 
 /* Rainbow Links */
-div.link{
+.link{
     text-align: center;
     margin-top: 0.5em;
 }
 
-div.link a{
+.link a{
     color: white;
     font-size: 1em;
     font-weight: bold;
     font-family: monospace;
 }
 
-div.link a:hover{
+.link a:hover{
     text-transform: uppercase;
 }
