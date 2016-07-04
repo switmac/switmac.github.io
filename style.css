@@ -57,6 +57,10 @@ div.color {
     border-top-right-radius: 200%500px;
 }
 
+div.color:hover {
+    opacity: 0.5;
+}
+
 #red {
     background-color: #ff6961;
     width: 100%;
@@ -169,4 +173,21 @@ div.color {
     border-radius: 200px;
     -webkit-border-radius: 200px;
     -moz-border-radius: 200px;
+}
+
+/* Rainbow Links */
+div.link{
+    text-align: center;
+    margin-top: 0.5em;
+}
+
+div.link a{
+    color: white;
+    font-size: 1em;
+    font-weight: bold;
+    font-family: monospace;
+}
+
+div.link a:hover{
+    text-transform: uppercase;
 }
