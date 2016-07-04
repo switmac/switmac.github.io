@@ -57,14 +57,13 @@ div.color {
     border-top-right-radius: 200%500px;
 }
 
-div.color:hover {
-    opacity: 0.5;
-}
-
 #red {
     background-color: #ff6961;
     width: 100%;
     height: 110%;
+}
+#red:hover{
+    background-color: #ff6971;
 }
 
 #orange {
@@ -75,12 +74,20 @@ div.color:hover {
     left: 5%;
 }
 
+#orange:hover{
+    background-color: #ffb357;
+}
+
 #yellow {
     background-color: #fdfd96;
     margin-top: 60px;
     width: 80%;
     height: 90%;
     left: 10%;
+}
+
+#yellow:hover {
+    background-color: #fdfd86;
 }
 
 #green {
@@ -91,12 +98,20 @@ div.color:hover {
     left: 15%;
 }
 
+#green:hover {
+    background-color: #77dd87;
+}
+
 #blue {
     background-color: #B4CFEC;
     margin-top: 120px;
     width: 60%;
     height: 70%;
     left: 20%;
+}
+
+#blue:hover {
+    background-color: #B4CFFF;
 }
 
 #indigo {
@@ -107,12 +122,20 @@ div.color:hover {
     left: 25%;
 }
 
+#indigo:hover {
+    background-color: #b19df1;
+}
+
 #violet {
     background-color: #b39eb5;
     margin-top: 180px;
     width: 40%;
     height: 50%;
     left: 30%;
+}
+
+#violet:hover {
+    background-color: #b39ea8;
 }
 
 #clear {
