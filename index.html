@@ -5,8 +5,36 @@
 
 <div id="example"></div>
 <script type="text/babel">
+    var BGDiv = React.createClass({
+        render: function () {
+            return (
+                    <div className="bg">
+                        {this.props.children}
+                    </div>
+            );
+        }
+    });
+
+    var BGBox = React.createClass({
+        render: function () {
+            return (
+                    <div
+                            className="bg-box"
+                            styleName=
+                                    {`top: ${this.props.top};
+                                    right: ${this.props.right};
+                                    transform: rotate(${this.props.rotate}deg);`
+                                    }>
+                        {this.props.char}
+                    </div>
+            );
+        }
+    });
+
     ReactDOM.render(
-            <h1>Hello, world!</h1>,
+            <BGDiv>
+                <BGBox top="5%" right="5%" rotate="-10" char="A"/>
+            </BGDiv>,
             document.getElementById('example')
     );
 </script>
