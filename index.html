@@ -17,14 +17,11 @@
 
     var BGBox = React.createClass({
         render: function () {
+            var style = "top: " + {this.props.top} +"; right: " +{this.props.right}+"; transform: rotate("+{this.props.rotate}+ "deg);";
             return (
                     <div
                             className="bg-box"
-                            styleName=
-                                    {`top: ${this.props.top};
-                                    right: ${this.props.right};
-                                    transform: rotate(${this.props.rotate}deg);`
-                                    }>
+                            style=this.style>
                         {this.props.char}
                     </div>
             );
