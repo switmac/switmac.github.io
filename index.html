@@ -20,7 +20,7 @@
             return (
                     <div
                             className="bg-box"
-                            styleName={this.props.style}>
+                            styleName={this.props.inlineStyle}>
                         {this.props.char}
                     </div>
             );
@@ -29,7 +29,7 @@
 
     ReactDOM.render(
             <BGDiv>
-                <BGBox style="top: 5%; right: 5%; transform: rotate(-10deg);" char="A"/>
+                <BGBox inlineStyle="top: 5%; right: 5%; transform: rotate(-10deg);" char="A"/>
             </BGDiv>,
             document.getElementById('example')
     );
