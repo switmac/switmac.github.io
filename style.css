@@ -232,10 +232,6 @@ div.color {
     font-family: monospace;
     font-size: 35px;
     z-index: -1;
-    position: absolute;
+    position: fixed;
     opacity: 0.2;
-
-    right: 5%;
-    transform: rotate(-10deg);
-    top: 15%;
 }
