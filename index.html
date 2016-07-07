@@ -17,10 +17,16 @@
 
     var BGBox = React.createClass({
         render: function () {
+            var style = {
+                top: this.props.top,
+                right: this.props.right,
+                transform: 'rotate(' + this.props.degree + 'deg)'
+            };
+
             return (
                     <div
                             className="bg-box"
-                            styleName={this.props.inlineStyle}>
+                            style={style}>
                         {this.props.char}
                     </div>
             );
@@ -29,7 +35,7 @@
 
     ReactDOM.render(
             <BGDiv>
-                <BGBox inlineStyle="top: 5%; right: 5%; transform: rotate(-10deg);" char="A"/>
+                <BGBox top="5%" right="5%" transform="-10" char="A"/>
             </BGDiv>,
             document.getElementById('example')
     );
