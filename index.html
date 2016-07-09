@@ -4,11 +4,17 @@
 <script src="https://cdnjs.cloudflare.com/ajax/libs/babel-core/5.8.34/browser.min.js"></script>
 
 <div id="container"></div>
+
 <script type="text/babel" src="boxes-bg.jsx"></script>
 <script type="text/babel" src="rainbow-block.jsx"></script>
 <script type="text/babel" src="contents.jsx"></script>
 
 <div class="contents">
+    <div className='text-bg'>
+        <div className='text'>
+            <img src='http://image.prntscr.com/image/3bda8ff778074cf7b0a4ee8617124630.png'/>
+        </div>
+    </div>
     <div class="rainbow-area">
         <div class='container'>
             <div class='rainbow'>
@@ -43,12 +49,13 @@
             </div>
         </div>
     </div>
+    <div id="#weather">
+        <iframe
+                src="https://earth.nullschool.net/#current/wind/surface/level/orthographic=-226.56,11.96,976"
+                width="100%"
+                height="100%"
+                name="iframe_a"></iframe>
+    </div>
+    <div id="#whoAmI">to be continued...</div>
+
 </div>
-<div id="#weather">
-    <iframe
-            src="https://earth.nullschool.net/#current/wind/surface/level/orthographic=-226.56,11.96,976"
-            width="100%"
-            height="100%"
-            name="iframe_a"></iframe>
-</div>
-<div id="#whoAmI">to be continued...</div>
