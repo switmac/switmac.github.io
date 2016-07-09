@@ -1,6 +1,6 @@
 ReactDOM.render(
     <div className="contents">
-        <BoxesBg />
+        <Boxes />
         <Rainbow />
     </div>,
     document.getElementById('container')
