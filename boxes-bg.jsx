@@ -1,13 +1,3 @@
-var BGDiv = React.createClass({
-    render: function () {
-        return (
-            <div className="bg">
-                {this.props.children}
-            </div>
-        );
-    }
-});
-
 var BGBox = React.createClass({
     render: function () {
         var style = {
@@ -26,7 +16,18 @@ var BGBox = React.createClass({
     }
 });
 
-var BoxesBG = React.createClass({
+var BGDiv = React.createClass({
+    render: function () {
+        return (
+            <div className="bg">
+                {this.props.children}
+            </div>
+        );
+    }
+});
+
+
+var Boxes = React.createClass({
     render: function () {
         return (
             <BGDiv>

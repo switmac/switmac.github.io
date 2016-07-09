@@ -1,13 +1,3 @@
-var RainbowBlock = React.createClass({
-    render: function () {
-        return (
-            <div className="rainbow-block">
-                {this.props.children}
-            </div>
-        );
-    }
-});
-
 var RainbowColor = React.createClass({
     render: function () {
         return (
@@ -16,6 +6,16 @@ var RainbowColor = React.createClass({
                 <div className="link">
                     <a href={this.props.link}>{this.props.label}</a>
                 </div>}
+            </div>
+        );
+    }
+});
+
+var RainbowBlock = React.createClass({
+    render: function () {
+        return (
+            <div className="rainbow-block">
+                {this.props.children}
             </div>
         );
     }
