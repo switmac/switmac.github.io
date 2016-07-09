@@ -32,21 +32,24 @@ var Cloud = React.createClass({
     }
 });
 
-ReactDOM.render(
-    <RainbowBlock>
-        <div>
-            <div className="rainbow">
-                <RainbowColor color="red" link="#whoAmI" label="WhoAmI?"/>
-                <RainbowColor color="orange" link="#postfolio" label="Portfolio"/>
-                <RainbowColor color="yellow" link="#word" label="Word"/>
-                <RainbowColor color="green" link="#scapes" label="Scapes"/>
-                <RainbowColor color="blue" link="#weather" label="Weather?"/>
-                <RainbowColor color="indigo" link="#interest" label="Interest"/>
-                <RainbowColor color="violet" link="#whoAmI" label="WhoAmI?"/>
-                <RainbowColor color="clear"/>
-            </div>
-            <Cloud />
-        </div>
-    </RainbowBlock>,
-    document.getElementById('container')
-);
+var Rainbow = React.createClass({
+    render: function () {
+        return (
+            <RainbowBlock>
+                <div>
+                    <div className="rainbow">
+                        <RainbowColor color="red" link="#whoAmI" label="WhoAmI?"/>
+                        <RainbowColor color="orange" link="#postfolio" label="Portfolio"/>
+                        <RainbowColor color="yellow" link="#word" label="Word"/>
+                        <RainbowColor color="green" link="#scapes" label="Scapes"/>
+                        <RainbowColor color="blue" link="#weather" label="Weather?"/>
+                        <RainbowColor color="indigo" link="#interest" label="Interest"/>
+                        <RainbowColor color="violet" link="#whoAmI" label="WhoAmI?"/>
+                        <RainbowColor color="clear"/>
+                    </div>
+                    <Cloud />
+                </div>
+            </RainbowBlock>
+        );
+    }
+});
