@@ -46,6 +46,10 @@ body {
     height: 480px;
 }
 
+.area {
+    position: relative;
+}
+
 .rainbow {
     position: relative;
     width: 900px;
@@ -220,7 +224,6 @@ div.color {
 .link a:hover {
     text-transform: uppercase;
 }
-
 
 /* BG Boxes */
 .bg-box {

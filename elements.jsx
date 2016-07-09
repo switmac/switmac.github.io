@@ -101,7 +101,7 @@ var Rainbow = React.createClass({
     render: function () {
         return (
             <RainbowBlock>
-                <div>
+                <div className="area">
                     <div className="rainbow">
                         <RainbowColor color="red" link="#whoAmI" label="WhoAmI?"/>
                         <RainbowColor color="orange" link="#postfolio" label="Portfolio"/>
