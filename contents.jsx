@@ -1,3 +1,6 @@
+require('boxes.jsx');
+require('rainbow-block.jsx');
+
 ReactDOM.render(
     <div className="contents">
         <div className='text-bg'>
