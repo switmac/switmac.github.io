@@ -1,0 +1,166 @@
+
+.rainbow-block {
+    height: 480px;
+}
+
+.area {
+    position: relative;
+}
+
+.rainbow {
+    position: relative;
+    width: 900px;
+    height: 300px;
+    margin: auto auto;
+}
+
+div.color {
+    position: absolute;
+    border-top: 1px solid white;
+    border-right: 1px solid white;
+    border-left: 1px solid white;
+    border-top-left-radius: 200% 500px;
+    border-top-right-radius: 200% 500px;
+}
+
+#red {
+    background-color: #ff6961;
+    width: 100%;
+    height: 110%;
+}
+
+#red:hover {
+    background-color: #ff6971;
+}
+
+#orange {
+    background-color: #ffb347;
+    margin-top: 30px;
+    width: 90%;
+    height: 100%;
+    left: 5%;
+}
+
+#orange:hover {
+    background-color: #ffb357;
+}
+
+#yellow {
+    background-color: #fdfd96;
+    margin-top: 60px;
+    width: 80%;
+    height: 90%;
+    left: 10%;
+}
+
+#yellow:hover {
+    background-color: #fdfd86;
+}
+
+#green {
+    background-color: #77dd77;
+    margin-top: 90px;
+    width: 70%;
+    height: 80%;
+    left: 15%;
+}
+
+#green:hover {
+    background-color: #77dd87;
+}
+
+#blue {
+    background-color: #B4CFEC;
+    margin-top: 120px;
+    width: 60%;
+    height: 70%;
+    left: 20%;
+}
+
+#blue:hover {
+    background-color: #B4CFFF;
+}
+
+#indigo {
+    background-color: #b19cd9;
+    margin-top: 150px;
+    width: 50%;
+    height: 60%;
+    left: 25%;
+}
+
+#indigo:hover {
+    background-color: #b19df1;
+}
+
+#violet {
+    background-color: #b39eb5;
+    margin-top: 180px;
+    width: 40%;
+    height: 50%;
+    left: 30%;
+}
+
+#violet:hover {
+    background-color: #b39ea8;
+}
+
+#clear {
+    background: #a1dbff repeat;
+    background: -moz-linear-gradient(top, #f0f9ff 0%, #cbebff 52%, #f0f9ff 100%) repeat;
+    background: -webkit-linear-gradient(top, #f0f9ff 0%, #cbebff 52%, #f0f9ff 100%) repeat;
+    background: linear-gradient(to bottom, #f0f9ff 0%, #cbebff 52%, #f0f9ff 100%) repeat;
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#a1dbff', endColorstr='#f0f9ff', GradientType=0);
+    margin-top: 210px;
+    width: 30%;
+    height: 40%;
+    left: 35%;
+}
+
+.clouds {
+    position: absolute;
+    z-index: 100;
+    width: 900px;
+    bottom: 0%;
+}
+
+.cloud {
+    width: 350px;
+    height: 120px;
+    background: #f2f9fe;
+    background: linear-gradient(top, #d6f0fd 5%, #f2f9fe 100%);
+    background: -webkit-linear-gradient(top, #d6f0fd 5%, #f2f9fe 100%);
+    background: -moz-linear-gradient(top, #d6f0fd 5%, #f2f9fe 100%);
+    background: -ms-linear-gradient(top, #d6f0fd 5%, #f2f9fe 100%);
+    background: -o-linear-gradient(top, #d6f0fd 5%, #f2f9fe 100%);
+    border-radius: 100px;
+    -webkit-border-radius: 100px;
+    -moz-border-radius: 100px;
+}
+
+.cloud.left {
+    position: absolute;
+    left: -3%;
+}
+
+.cloud.right {
+    position: absolute;
+    left: 63%;
+}
+
+.cloud:before {
+    content: '';
+    position: absolute;
+    background: #f2f9fe;
+    z-index: -1
+}
+
+.cloud:before {
+    width: 250px;
+    height: 170px;
+    bottom: -50px;
+    right: 50px;
+    border-radius: 200px;
+    -webkit-border-radius: 200px;
+    -moz-border-radius: 200px;
+}
