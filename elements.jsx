@@ -90,8 +90,8 @@ var RainbowCloud = React.createClass({
 	render: function () {
 		return (
 		  <div className="clouds">
-			  <Cloud style="left"/>
-			  <Cloud style="right"/>
+			  <Cloud styleClass="left"/>
+			  <Cloud styleClass="right"/>
 		  </div>
 		);
 	}
@@ -101,7 +101,7 @@ var RainbowCloud = React.createClass({
 var Cloud = React.createClass({
 	render: function () {
 		return (
-		  <div className="cloud "{this.props.style} ></div>
+		  <div className="cloud "{this.props.styleClass} ></div>
 		);
 	}
 });
@@ -133,11 +133,11 @@ var CloudAnimation = React.class({
 	render: function () {
 		return (
 		  <div id="clouds-bg">
-			  <Cloud style="x1"/>
-			  <Cloud style="x2"/>
-			  <Cloud style="x3"/>
-			  <Cloud style="x4"/>
-			  <Cloud style="x5"/>
+			  <Cloud styleClass="x1"/>
+			  <Cloud styleClass="x2"/>
+			  <Cloud styleClass="x3"/>
+			  <Cloud styleClass="x4"/>
+			  <Cloud styleClass="x5"/>
 		  </div>
 		);
 	}
