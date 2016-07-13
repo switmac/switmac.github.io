@@ -101,7 +101,7 @@ var RainbowCloud = React.createClass({
 var Cloud = React.createClass({
 	render: function () {
 		return (
-		  <div className="cloud "{this.props.styleClass} ></div>
+		  <div className={"cloud "+this.props.styleClass} ></div>
 		);
 	}
 });
