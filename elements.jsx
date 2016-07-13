@@ -19,7 +19,7 @@ var BGBox = React.createClass({
 var BGDiv = React.createClass({
 	render: function () {
 		return (
-		  <div className="bg">
+		  <div className="bg-boxes">
 			  {this.props.children}
 		  </div>
 		);
@@ -145,14 +145,13 @@ var CloudAnimation = React.createClass({
 
 ReactDOM.render(
   <div className="contents">
+	  <CloudAnimation />
 	  <div className='text-bg'>
 		  <div className='text'>
 			  <img src='http://image.prntscr.com/image/3bda8ff778074cf7b0a4ee8617124630.png'/>
 		  </div>
 	  </div>
-	  <Boxes />
 	  <Rainbow />
-	  <CloudAnimation />
   </div>,
   document.getElementById('container')
 );
