@@ -157,6 +157,7 @@ var Sun = React.createClass({
 
 ReactDOM.render(
   <div className="contents">
+	  <Sun />
 	  <CloudAnimation />
 	  <div className='text-bg'>
 		  <div className='text'>
