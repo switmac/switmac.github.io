@@ -129,7 +129,7 @@ var Rainbow = React.createClass({
 	}
 });
 
-var CloudAnimation = React.class({
+var CloudAnimation = React.createClass({
 	render: function () {
 		return (
 		  <div id="clouds-bg">
