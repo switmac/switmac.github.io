@@ -101,7 +101,7 @@ var RainbowCloud = React.createClass({
 var Cloud = React.createClass({
 	render: function () {
 		return (
-		  <div className={"cloud "+this.props.styleClass} ></div>
+		  <div className={"cloud "+this.props.styleClass}></div>
 		);
 	}
 });
@@ -139,6 +139,18 @@ var CloudAnimation = React.createClass({
 			  <Cloud styleClass="x4"/>
 			  <Cloud styleClass="x5"/>
 		  </div>
+		);
+	}
+});
+
+var Sun = React.createClass({
+	render: function () {
+		return (
+		  <svg id="sun" width="400" height="400">
+			  <polygon
+				points="200 100 150 50 125 125 50 150 100 200 50 250 125 275 150 350 200 300 250 350 275 275 350 250 300 200 350 150 275 125 250 50"></polygon>
+			  <circle cx="200" cy="200" r="110"/>
+		  </svg>
 		);
 	}
 });
