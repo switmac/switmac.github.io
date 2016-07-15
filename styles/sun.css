@@ -8,8 +8,15 @@
     animation: spin 25s linear infinite, sun-glow 5s infinite;
     position: fixed;
     top : -20px;
+    right: -10%;
+    z-index: -15;
 }
 
+@media screen and max-width(780px){
+    #sun {
+        display : none;
+    }
+}
 
 @-webkit-keyframes sun-glow {
     0% {
