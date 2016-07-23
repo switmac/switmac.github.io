@@ -114,12 +114,12 @@ var Rainbow = React.createClass({
 			  <div className="area">
 				  <div className="rainbow">
 					  <RainbowColor color="red" link="#whoAmI" label="WhoAmI?"/>
-					  <RainbowColor color="orange" link="#postfolio" label="Portfolio"/>
-					  <RainbowColor color="yellow" link="#word" label="Word"/>
-					  <RainbowColor color="green" link="#scapes" label="Scapes"/>
-					  <RainbowColor color="blue" link="#weather" label="Weather?"/>
-					  <RainbowColor color="indigo" link="#interest" label="Interest"/>
-					  <RainbowColor color="violet" link="#whoAmI" label="WhoAmI?"/>
+					  <RainbowColor color="orange" link="#portfolio" label="Portfolio"/>
+					  <RainbowColor color="yellow" />
+					  <RainbowColor color="green" />
+					  <RainbowColor color="blue" />
+					  <RainbowColor color="indigo" />
+					  <RainbowColor color="violet" />
 					  <RainbowColor color="clear"/>
 				  </div>
 				  <RainbowCloud />

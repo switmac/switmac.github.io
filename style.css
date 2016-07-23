@@ -3,15 +3,19 @@
 @import url("./styles/rainbow.css");
 @import url("./styles/boxes.css");
 @import url("./styles/sun.css");
+@import url(https://fonts.googleapis.com/css?family=Abel);
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:400,300);
 
 body {
-    margin-top: 0px !important;
+    margin: 0px !important;
     background: #a1dbff repeat;
     background: -moz-linear-gradient(top, #f0f9ff 0%, #cbebff 52%, #a1dbff 100%) repeat;
     background: -webkit-linear-gradient(top, #f0f9ff 0%, #8bcff9 52%, #cbebff 100%) repeat;
     background: linear-gradient(to bottom, #f0f9ff 0%, #8bcff9 52%, #cbebff 100%) repeat;
     filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#a1dbff', endColorstr='#f0f9ff', GradientType=0);
     overflow-x: hidden;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 300;
 }
 
 .contents {
@@ -34,4 +38,53 @@ body {
 
 .link a:hover {
     text-transform: uppercase;
+}
+
+/* whoAmI */
+#whoAmI {
+    background-color: #FFCDD2;
+    padding: 50px 0;
+}
+
+.contact {
+    display: block;
+}
+
+.contact span {
+
+}
+
+span.gmail {
+    color: red;
+}
+
+span.skype {
+    color: #00aff0;
+}
+
+span.linkedIn {
+    color: #1b86bc;
+}
+
+#portfolio {
+    background-color: #FFECB3;
+    padding: 50px 0;
+}
+
+div.showcases{
+
+}
+
+div.logo {
+    background-color: white;
+    margin: 1em 0;
+    width: 50%;
+    border-radius: 3px;
+}
+
+div.logo .title {
+    background: gray;
+    color: white;
+    padding: 10px;
+    font-weight: 400;
 }
