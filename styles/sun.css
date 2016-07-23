@@ -7,7 +7,9 @@
     -ms-animation: spin 25s linear infinite, sun-glow  5s infinite;
     animation: spin 25s linear infinite, sun-glow 5s infinite;
     position: fixed;
-    top : -20px;
+    top: -20%;
+    right: -10%;
+    z-index: -15;
 }
 
 
