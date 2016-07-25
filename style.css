@@ -40,6 +40,10 @@ body {
     text-transform: uppercase;
 }
 
+#main {
+    color : gray;
+}
+
 /* whoAmI */
 #whoAmI {
     background-color: #FFCDD2;
@@ -80,6 +84,11 @@ div.logo {
     margin: 1em 0;
     width: 50%;
     border-radius: 3px;
+}
+
+
+div.logo:hover {
+    background-color: black;
 }
 
 div.logo .title {
