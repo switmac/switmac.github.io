@@ -41,12 +41,12 @@ body {
 }
 
 #main {
-    color : gray;
+    color : white;
 }
 
 /* whoAmI */
 #whoAmI {
-    background-color: #FFCDD2;
+    background-color: #ff6971;
     padding: 50px 0;
 }
 
@@ -58,22 +58,16 @@ body {
 
 }
 
-span.gmail {
-    color: red;
-}
-
-span.skype {
-    color: #00aff0;
-}
-
-span.linkedIn {
-    color: #1b86bc;
-}
-
-#portfolio {
-    background-color: #FFECB3;
+#portfolio.apps {
+    background-color: #ffb357;
     padding: 50px 0;
 }
+
+#portfolio.logos {
+    background-color: #f1f130;
+    padding: 50px 0;
+}
+
 
 div.showcases{
 
