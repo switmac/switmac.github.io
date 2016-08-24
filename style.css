@@ -99,6 +99,12 @@ div.app .title {
     color: #222;
 }
 
+
+div.app .gallery img {
+    display: inline-block;
+    margin-left: auto;
+    margin-right: auto;
+}
 .portfolio.logos {
     background-color: #f1f130;
     padding: 50px 0;
