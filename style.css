@@ -98,6 +98,8 @@ section#announcement{
 .portfolio.apps .app{
     position: relative;
     margin: 1em 0 2em 0;
+    background: white;
+    border-radius: 5px;
 }
 
 .portfolio.apps .title {
@@ -108,8 +110,6 @@ section#announcement{
     color: white;
     background: rgba(0, 0, 0, 0.7);
     text-align: center;
-    border-top-left-radius: 5px;
-    border-top-right-radius: 5px;
 }
 
 .portfolio.apps .app .description{
@@ -117,8 +117,6 @@ section#announcement{
     bottom: 0;
     padding: 10px;
     background: rgba(0, 0, 0, 0.7);
-    border-bottom-left-radius: 5px;
-    border-bottom-right-radius: 5px;
 }
 
 .portfolio.apps .app a img {
@@ -126,6 +124,8 @@ section#announcement{
     margin-left: auto;
     margin-right: auto;
     width: 100%;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
 }
 
 div.app .gallery img {
