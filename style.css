@@ -120,7 +120,7 @@ section#announcement{
     width: 100%;
 }
 
-.portfolio.apps .app a img {
+.portfolio.apps .app a img, div.logo img {
     display: block;
     margin-left: auto;
     margin-right: auto;
@@ -145,6 +145,7 @@ div.logo {
     border-radius: 3px;
     position: relative;
 }
+
 
 div.m {
     width: 48%;
