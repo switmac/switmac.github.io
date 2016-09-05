@@ -78,7 +78,7 @@ section#announcement{
     padding: 1em;
 }
 
-/* whoAmI */
+/* #whoAmI */
 #whoAmI {
     background-color: #ff6971;
     padding: 50px 0;
@@ -88,17 +88,28 @@ section#announcement{
     display: block;
 }
 
-.contact span {
-
-}
-
+/* #portfolio */
 .portfolio.apps {
     background-color: #ffb357;
     padding: 50px 0;
 }
 
-div.showcases {
+.portfolio.apps .app{
+    position: relative;
+}
 
+.portfolio.apps .app .description{
+    position: absolute;
+    bottom: 0;
+    padding: 10px;
+    background: rgba(0, 0, 0, 0.7);
+}
+
+
+.portfolio.apps .app img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 div.app {
@@ -107,12 +118,6 @@ div.app {
 
 div.app .title img {
     width: 100%;
-}
-
-img {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
 }
 
 div.app .title {
@@ -129,6 +134,7 @@ div.app .gallery img {
     margin-left: auto;
     margin-right: auto;
 }
+
 
 .portfolio.logos {
     background-color: #f1f130;
@@ -191,3 +197,4 @@ div.logo .title::after {
     position: absolute;
     pointer-events: none;
 }
+
