@@ -89,6 +89,7 @@ section#announcement{
 }
 
 /* #portfolio */
+/* apps */
 .portfolio.apps {
     background-color: #ffb357;
     padding: 50px 0;
@@ -96,6 +97,19 @@ section#announcement{
 
 .portfolio.apps .app{
     position: relative;
+    margin: 1em 0 2em 0;
+}
+
+.portfolio.apps .title {
+    font-size: 24px;
+    margin-top: 5px;
+    padding: 10px 0;
+    font-weight: 700;
+    color: white;
+    background: rgba(0, 0, 0, 0.7);
+    text-align: center;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
 }
 
 .portfolio.apps .app .description{
@@ -103,8 +117,9 @@ section#announcement{
     bottom: 0;
     padding: 10px;
     background: rgba(0, 0, 0, 0.7);
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
 }
-
 
 .portfolio.apps .app a img {
     display: block;
@@ -113,25 +128,13 @@ section#announcement{
     width: 100%;
 }
 
-div.app {
-    margin: 1em 0 2em 0;
-}
-
-div.app .title {
-    font-family: Georgia, "Times New Roman", Times, serif;
-    font-size: 24px;
-    margin-top: 5px;
-    margin-bottom: 10px;
-    font-weight: normal;
-    color: #222;
-}
-
 div.app .gallery img {
     display: inline-block;
     margin-left: auto;
     margin-right: auto;
 }
 
+/* logos */
 .portfolio.logos {
     background-color: #f1f130;
     padding: 50px 0;
