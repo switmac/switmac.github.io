@@ -106,18 +106,15 @@ section#announcement{
 }
 
 
-.portfolio.apps .app img {
+.portfolio.apps .app a img {
     display: block;
     margin-left: auto;
     margin-right: auto;
+    width: 100%;
 }
 
 div.app {
     margin: 1em 0 2em 0;
-}
-
-div.app .title img {
-    width: 100%;
 }
 
 div.app .title {
@@ -134,7 +131,6 @@ div.app .gallery img {
     margin-left: auto;
     margin-right: auto;
 }
-
 
 .portfolio.logos {
     background-color: #f1f130;
