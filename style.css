@@ -3,8 +3,7 @@
 @import url("./styles/rainbow.css");
 @import url("./styles/boxes.css");
 @import url("./styles/sun.css");
-@import url(https://fonts.googleapis.com/css?family=Abel);
-@import url(https://fonts.googleapis.com/css?family=Open+Sans:400,300);
+@import url("./font/font.css");
 
 body {
     margin: 0px !important;
@@ -14,7 +13,7 @@ body {
     background: linear-gradient(to bottom, #f0f9ff 0%, #8bcff9 52%, #cbebff 100%) repeat;
     filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#a1dbff', endColorstr='#f0f9ff', GradientType=0);
     overflow-x: hidden;
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'Raleway', sans-serif;
     font-weight: 300;
 }
 
@@ -40,17 +39,43 @@ body {
     text-transform: uppercase;
 }
 
+/* contents */
 #main {
     color: white;
 }
 
-table.contacts {
+.info {
     color: #2e2e2e;
+}
+
+.info a {
+    color: #2e2e2e;
+    font-weight: 600;
+    text-decoration: none;
+}
+
+.info a:hover {
+    color: floralwhite;
 }
 
 .section-name {
     text-transform: uppercase;
     text-shadow: 2px 2px 2px rgba(150, 150, 150, 1);
+}
+
+/* announcement */
+section#announcement{
+    background: white;
+    padding: 1em;
+    color: white;
+}
+
+.warning {
+    border: 2px solid #ffb347;
+    border-radius: 3px;
+    background-color: sandybrown;
+    margin: 1em;
+    padding: 1em;
 }
 
 /* whoAmI */
@@ -99,12 +124,12 @@ div.app .title {
     color: #222;
 }
 
-
 div.app .gallery img {
     display: inline-block;
     margin-left: auto;
     margin-right: auto;
 }
+
 .portfolio.logos {
     background-color: #f1f130;
     padding: 50px 0;
