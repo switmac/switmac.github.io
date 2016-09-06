@@ -64,7 +64,7 @@ body {
 }
 
 /* announcement */
-section#announcement{
+section#announcement {
     background: white;
     padding: 1em;
     color: white;
@@ -88,6 +88,71 @@ section#announcement{
     display: block;
 }
 
+table.skills {
+    background: white none repeat scroll 0% 0%;
+    border-radius: 2px;
+    padding: 1em;
+    width: 100%;
+    border: 5px solid silver;
+    font-family: mono;
+}
+
+table.skills td {
+    padding: 5px 0;
+}
+
+table.skills td progress[value] {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+
+    width: 100%;
+    height: 20px;
+    border-radius: 10px;
+}
+
+table.skills td progress[value]::-webkit-progress-bar {
+    border-radius: 10px;
+    background: #eee;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.25) inset;
+}
+
+table.skills td progress[value]::-webkit-progress-value {
+    background-image: -webkit-linear-gradient(-45deg, transparent 33%, rgba(0, 0, 0, .1) 33%,
+    rgba(0, 0, 0, .1) 66%, transparent 66%),
+    -webkit-linear-gradient(top,
+            rgba(255, 255, 255, .25),
+            rgba(0, 0, 0, .25)),
+    -webkit-linear-gradient(left, #09c, #f44);
+
+    border-radius: 10px;
+    background-size: 35px 20px, 100% 100%, 100% 100%;
+}
+
+progress[value]::-moz-progress-bar {
+    background-image:
+            -moz-linear-gradient(
+                    135deg,
+                    transparent 33%,
+                    rgba(0, 0, 0, 0.1) 33%,
+                    rgba(0, 0, 0, 0.1) 66%,
+                    transparent 66%
+            ),
+            -moz-linear-gradient(
+                    top,
+                    rgba(255, 255, 255, 0.25),
+                    rgba(0, 0, 0, 0.25)
+            ),
+            -moz-linear-gradient(
+                    left,
+                    #09c,
+                    #f44
+            );
+
+    border-radius: 10px;
+    background-size: 35px 20px, 100% 100%, 100% 100%;
+}
+
 /* #portfolio */
 /* apps */
 .portfolio.apps {
@@ -95,7 +160,7 @@ section#announcement{
     padding: 50px 0;
 }
 
-.portfolio.apps .app{
+.portfolio.apps .app {
     position: relative;
     margin: 1em 0 2em 0;
     background: white;
@@ -112,7 +177,7 @@ section#announcement{
     text-align: center;
 }
 
-.portfolio.apps .app .description{
+.portfolio.apps .app .description {
     position: absolute;
     bottom: 0;
     padding: 10px;
@@ -124,6 +189,9 @@ section#announcement{
     display: block;
     margin-left: auto;
     margin-right: auto;
+}
+
+.portfolio.apps .app a img {
     width: 100%;
 }
 
@@ -145,7 +213,6 @@ div.logo {
     border-radius: 3px;
     position: relative;
 }
-
 
 div.m {
     width: 48%;
