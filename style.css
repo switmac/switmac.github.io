@@ -68,14 +68,16 @@ section#announcement {
     background: white;
     padding: 1em;
     color: white;
+    position : fixed;
+    bottom : 0;
 }
 
 .warning {
     border: 2px solid #ffb347;
     border-radius: 3px;
     background-color: sandybrown;
-    margin: 1em;
-    padding: 1em;
+    margin: 0.25em;
+    padding: 0.25em;
 }
 
 /* #whoAmI */
@@ -264,3 +266,7 @@ div.logo .title::after {
     pointer-events: none;
 }
 
+#container img {
+  height: 100%;
+  width: 100%;
+}
