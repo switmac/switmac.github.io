@@ -1,0 +1,66 @@
+@import url("./font/font.css");
+
+body {
+  margin: 0px !important;
+  background: #a1dbff repeat;
+  background: -moz-linear-gradient(top, #f0f9ff 0%, #cbebff 52%, #a1dbff 100%) repeat;
+  background: -webkit-linear-gradient(top, #f0f9ff 0%, #8bcff9 52%, #cbebff 100%) repeat;
+  background: linear-gradient(to bottom, #f0f9ff 0%, #8bcff9 52%, #cbebff 100%) repeat;
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#a1dbff', endColorstr='#f0f9ff', GradientType=0);
+  overflow-x: hidden;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 300;
+}
+
+%cursive-text {
+  font-family:  Sacramento;
+  color : white;
+  font-size: 3em;
+  position: absolute;
+}
+
+.message{
+  @extend %cursive-text;
+  top: 14%;
+  right: 38%;
+}
+
+.link {
+  @extend %cursive-text;
+  text-decoration: none;
+  top : 44%
+}
+
+#who-link{
+  left: 8%;
+}
+
+#what-link{
+  left : 42%;
+}
+
+#contact-link{
+  right : 8%;
+}
+
+#container img {
+  height: 100%;
+  width: 100%;
+}
+
+/* announcement */
+section#announcement {
+  background: white;
+  padding: 0.5em;
+  color: white;
+  position : fixed;
+  bottom : 0;
+}
+
+.warning {
+  border: 2px solid #ffb347;
+  border-radius: 3px;
+  background-color: sandybrown;
+  margin: 0.25em;
+  padding: 0.25em;
+}

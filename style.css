@@ -22,6 +22,11 @@ body {
     margin: 0.75em auto auto auto;
 }
 
+.cursive-text {
+  font-family:  Sacramento;
+  color : white;
+}
+
 /* Rainbow Links */
 .link {
     text-align: center;
