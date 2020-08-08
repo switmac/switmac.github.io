@@ -1,316 +1,130 @@
+<!DOCTYPE html>
 <html>
-<head>
-  <title>macg</title>
-  <link rel='shortcut icon' href='favicon.ico' type='image/x-icon'/ >
-  <link rel="stylesheet" type="text/css" href="main.css">
-  <link rel="stylesheet" type="text/css"
-        href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css">
-</head>
-<body>
-
-
-<div id="container">
-  <img src="./images/bg.png" />
-  <span class="message">Hi, I am Marie!</span>
-  <a href="#" id="who-link" class="link">WhoIAm</a>
-  <a href="#" id="what-link" class="link">WhatIDo</a>
-  <a href="#" id="contact-link" class="link">ContactMe</a>
-  <section id="announcement">
-      <div class="warning">Sorry for the inconvenience. Please bear with me this site is under construction. :)</div>
-  </section>
-</div>
-
-<!---
-
-
-=======
-<script type="text/javascript" src="https://platform.linkedin.com/badges/js/profile.js" async defer></script>
->>>>>>> 556d8c30e68ffa092abfcea1b7e045129befc783
-<script src="build/react.js"></script>
-<script src="build/react-dom.js"></script>
-<script src="build/babel.browser.min.js"></script>
-
-<script type="text/babel" src="elements.jsx"></script>
-
-<div id="main">
-    <section id="announcement">
-        <div class="warning">Sorry for the inconvenience. Please bear with me this site is under construction. :)</div>
-    </section>
-    <section id="whoAmI">
-        <div class="contents">
-            <h3 class="section-name">#WhoAmI?</h3>
-            <div>
-                <h3>Biography</h3>
-                <div class="info">
-                    A resident in the Southern Part of the <a href="#">Philippines</a>, I am from the <a href="#">City
-                    of Golden Friendship,
-                    Cagayan de Oro City</a>. I graduated BS in Computer Science from
-                    <a href="#">Mindanao State University - Iligan Institute of Technology (MSU-IIT)</a> in the year
-                    2012.
-                </div>
+  <head>
+    <title>macg</title>
+    <link rel='shortcut icon' href='favicon.ico' type='image/x-icon'/ >
+    <link rel="stylesheet" type="text/css" href="main.css" />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Quicksand:wght@400;600&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="container">
+      <div class="cv">
+        <div class="header">
+          <div class="header__image">
+            <img
+              src="https://www.gravatar.com/avatar/49d1d553672f07f63ff8137126930c98?size=240&default=https%3A%2F%2Fs3-alpha.figma.com%2Fstatic%2Fuser_m_v2.png"
+            />
+          </div>
+          <div class="header__details">
+            <h1 class="name">Hi, I'm Marie Go!</h1>
+            <div class="occupation">
+              Computer Programmer <span class="dot"></span> Web Developer
+              <span class="dot"></span>
+              Software Engineer
             </div>
-            <div>
-                <h3>Work Experiences</h3>
-                <div class="info">1 year, 7 months and counting in Web Development. 3 years in Software Development.
-                </div>
-
-                <h3>Skills</h3>
-                <table class="skills">
-                    <thead>
-                    <tr>
-                        <th>Tech/Tool</th>
-                        <th>Basic</th>
-                        <th>Intermediate</th>
-                        <th>Advance</th>
-                    </tr>
-                    </thead>
-                    <tbody>
-                    <tr>
-                        <td>HTML</td>
-                        <td colspan="3">
-                            <progress value="80" max="100"></progress>
-                        </td>
-                    </tr>
-                    <tr>
-                        <td>XML</td>
-                        <td colspan="3">
-                            <progress value="70" max="100"></progress>
-                        </td>
-                    </tr>
-                    <tr>
-                        <td>Javascript</td>
-                        <td colspan="3">
-                            <progress value="70" max="100"></progress>
-                        </td>
-                    </tr>
-                    <tr>
-                        <td>CSS</td>
-                        <td colspan="3">
-                            <progress value="70" max="100"></progress>
-                        </td>
-                    </tr>
-                    <tr>
-                        <td>PHP</td>
-                        <td colspan="3">
-                            <progress value="60" max="100"></progress>
-                        </td>
-                    </tr>
-                    <tr>
-                        <td>Java</td>
-                        <td colspan="3">
-                            <progress value="85" max="100"></progress>
-                        </td>
-                    </tr>
-                    <tr>
-                        <td>ReactJS</td>
-                        <td colspan="3">
-                            <progress value="35" max="100"></progress>
-                        </td>
-                    </tr>
-                    <tr>
-                        <td>AngularJS</td>
-                        <td colspan="3">
-                            <progress value="50" max="100"></progress>
-                        </td>
-                    </tr>
-                    <tr>
-                        <td>MeteorJS</td>
-                        <td colspan="3">
-                            <progress value="20" max="100"></progress>
-                        </td>
-                    </tr>
-                    <tr>
-                        <td>NodeJS</td>
-                        <td colspan="3">
-                            <progress value="40" max="100"></progress>
-                        </td>
-                    </tr>
-                    <tr>
-                        <td>PostgreSQL</td>
-                        <td colspan="3">
-                            <progress value="90" max="100"></progress>
-                        </td>
-                    </tr>
-                    <tr>
-                        <td>MySQL</td>
-                        <td colspan="3">
-                            <progress value="70" max="100"></progress>
-                        </td>
-                    </tr>
-                    <tr>
-                        <td>MongoDB</td>
-                        <td colspan="3">
-                            <progress value="40" max="100"></progress>
-                        </td>
-                    </tr>
-                    </tbody>
-                </table>
+            <div class="introduction">
+              For the past 8 years of working in the industry, I've been able
+              build web and desktop enterprise applications. I've been into
+              roles of frontend and backend. Having been in a scrum master role
+              for past 2 years has helped me improved on my collaboration skills
+              and got me able to relate to my colleuages swiftly. My love for my
+              craft keeps me motivated. I'm a dedicated (hard/smart) worker and
+              fast learner. With the fast changing times, I try keep up with my
+              learnings by familiarizing new tools that will make development
+              faster.
             </div>
-            <div>
-                <h3>Interests</h3>
-                <div class="info">Politics, Economy, Science, Technology, Music, Environment</div>
-            </div>
-            <div>
-                <h3>Social Media Accounts</h3>
-                Reach me thru
-                <table class="contacts info">
-                    <tr>
-                        <td>
-                            <i class="fa fa-envelope-o" aria-hidden="true"></i>
-                            Gmail
-                        </td>
-                        <td>: marieantoinette.go@gmail.com</td>
-                    </tr>
-                    <tr>
-                        <td>
-                            <i class="fa fa-skype" aria-hidden="true"></i>
-                            Skype
-                        </td>
-                        <td>: swit.marie</td>
-                    </tr>
-                    <tr>
-                        <td>
-                            <i class="fa fa-linkedin-square" aria-hidden="true"></i>
-                            LinkedIn
-                        </td>
-                        <td>: <a href="https://ph.linkedin.com/in/marieantoinettego" target="_blank">https://ph.linkedin.com/in/marieantoinettego</a>
-                        </td>
-                    </tr>
-                    <tr>
-                        <td>
-                            <i class="fa fa-linkedin-square" aria-hidden="true"></i>
-                            Github
-                        </td>
-                        <td>: <a href="https://switmac.github.io" target="_blank">switmac</a>
-                        </td>
-                    </tr>
-                </table>
-            </div>
+          </div>
         </div>
-    </section>
-
-    <section id="portfolio" class="portfolio apps">
-        <div class="contents">
-            <h3 class="section-name">#Portfolio</h3>
-            <h3>Web Apps</h3>
-            <div class="showcases">
-                <div class="app">
-                    <div class="title">Investing Peso</div>
-                    <div>
-                        <a target="_blank" href="http://www.investingpeso.com/">
-                            <img src="images/apps/investing-peso.png"/>
-                        </a>
-                    </div>
-                    <div class="description">Investing Peso is an investment assistance application it offers services
-                        such as Online Coaching and One-on-One Coaching for people who are interested to learn about
-                        investing
-                        whether it may be about stock market, business and hybrid insurance-investment plans.
-                    </div>
-                </div>
-                <div class="app">
-                    <div class="title">SkiAk</div>
-                    <div>
-                        <a target="_blank" href="http://skiak.com/">
-                            <img src="images/apps/skiak.png"/>
-                        </a>
-                    </div>
-                    <div class="description">SkiAk is a shop based in Alaska, USA. This is a profile of their company.
-                        Also at some point included its online shop.
-                    </div>
-                </div>
-                <div class="app">
-                    <div class="title">Georgia EMC</div>
-                    <div>
-                        <a target="_blank" href="https://georgiaemc.com/">
-                            <img src="images/apps/georgia-emc.png"/>
-                        </a>
-                    </div>
-                    <div class="description">Georgia EMC is an electric cooperative web recreation. This is a translated
-                        version from .aspx implementation to WordPress management.
-                    </div>
-                </div>
-                <div class="app">
-                    <div class="title">Gelato Petrini</div>
-                    <div>
-                        <a target="_blank" href="http://gelatopetrini.com/">
-                            <img src="images/apps/gelatopetrini.png"/>
-                        </a>
-                    </div>
-                    <div class="description">Gelato Petrini is a gelato store promoting its products through its website.
-                    </div>
-                </div>
-                <div class="app">
-                    <div class="title">Cliffside</div>
-                    <div>
-                        <a target="_blank" href="http://www.cliffside.org/">
-                            <img src="images/apps/cliffside.png"/>
-                        </a>
-                    </div>
-                    <div class="description">Cliffside is a Christian community extending its services to its members thru web.
-                    </div>
-                </div>
+        <div class="tools-skills">
+          <h4><i class="fa fa-flask"></i> Skills and Tools</h4>
+          <div class="columns">
+            <div>
+              <div class="title">SPA</div>
+              <div>AngularJS</div>
+              <div>ReactJS</div>
+              <div>VueJS</div>
+              <div>BackboneJS</div>
+              <div>Ionic</div>
             </div>
-            <h3>Software Apps</h3>
-            <div class="showcases">
-                <div class="app">
-                    <div class="title">
-                        M1 Intergrated Business Process Software
-                    </div>
-                    <div class="gallery">
-                        <img src="images/apps/m1-installer.PNG"/>
-                        <img src="images/apps/m1-login.PNG"/>
-                    </div>
-                    <div class="description">Translates business process to software for an Electric Company using Java
-                        and other technologies. The project scope includes Human Resource System, Customer Management,
-                        Inventory, Accounting, Billing, Web counter parts and others.
-                    </div>
-                </div>
+            <div>
+              <div class="title">Languages</div>
+              <div>Javascript</div>
+              <div>Java</div>
+              <div>Php</div>
             </div>
+            <div>
+              <div class="title">Tools and 3rd Parties</div>
+              <div class="columns">
+                <div>
+                  <div>Git</div>
+                  <div>Jest</div>
+                  <div>Sass</div>
+                  <div>Outfit.io</div>
+                  <div>Rollout.io</div>
+                </div>
+                <div>
+                  <div>Wix</div>
+                  <div>Restlet</div>
+                  <div>JavaFx</div>
+                  <div>Shell Script</div>
+                  <div>Batch Script</div>
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
-    </section>
-    <section class="portfolio logos">
-        <div class="contents">
-            <h3>Logos</h3>
-            <div class="showcases">
-                <div class="logo m">
-                    <img src="images/logos/di-logo.png"/>
-                    <div class="title">
-                        District Idea
-                    </div>
-                </div>
-                <div class="logo m legato">
-                    <img src="images/logos/legato-logo.png"/>
-                    <div class="title">
-                        Legato Digital Services
-                    </div>
-                </div>
-                <div class="logo">
-                    <img src="images/logos/ip-logo.png"/>
-                    <div class="title">
-                        Investing Peso
-                    </div>
-                </div>
-                <div class="logo">
-                    <img src="images/logos/incubator-logo.png"/>
-                    <div class="title">
-                        Incubator
-                    </div>
-                </div>
-                <div class="logo">
-                    <img width="100%" src="images/logos/sefra-logo.png"/>
-                    <div class="title">
-                        Sefra
-                    </div>
-                </div>
-            </div>
+        <div class="contact">
+          <h4>
+            <i class="fa fa-heart"></i> Reach me out thru these channels and
+            let's have a chat.
+          </h4>
+          <div>
+            <i class="fa fa-envelope"></i> :
+            <a href="mailto:marieantoinette.go@gmail.com"
+              >marieantoinette.go@gmail.com</a
+            >
+          </div>
+          <div>
+            <i class="fa fa-github" title="Github"></i> :
+            <a href="https://github.com/switmac" target="blank"
+              >https://github.com/switmac</a
+            >
+          </div>
+          <div>
+            <i class="fa fa-linkedin" title="LinkedIn"></i> :
+            <a
+              href="https://www.linkedin.com/in/marieantoinettego"
+              target="blank"
+              >https://www.linkedin.com/in/marieantoinettego</a
+            >
+          </div>
         </div>
-    </section>
-    <section>
-      <div class="LI-profile-badge"  data-version="v1" data-size="medium" data-locale="en_US" data-type="vertical" data-theme="dark" data-vanity="marieantoinettego">
-        <a class="LI-simple-link" href='https://ph.linkedin.com/in/marieantoinettego?trk=profile-badge'>Marie Antoinette Go</a>
       </div>
-    </section>
-</div>
---->
-</body>
+    </div>
+    <script type="text/javascript">
+      function setRandomBackgroundColor() {
+        const bodyElem = document.getElementsByTagName("body")[0];
+        const bgClassNames = [
+          "bg-gradient-blue-pink",
+          "bg-gradient-teal-grey",
+          "bg-gradient-yellow-green",
+        ];
+        const randomIndex = Math.round(
+          Math.random() * (bgClassNames.length - 1)
+        );
+        const randomClass = bgClassNames[randomIndex];
+        console.log(randomClass, bodyElem);
+        bodyElem.classList.add(randomClass);
+      }
+      setRandomBackgroundColor();
+    </script>
+  </body>
 </html>
