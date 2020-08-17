@@ -1,5 +1,6 @@
 # switmac.github.io
 This project contains random stuff I want to do and my portfolio.
+<a href="switmac.github.io">switmac.github.io</a>
 
 # Visual Studio Custom Settings 
 settings.json
