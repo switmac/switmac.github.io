@@ -1,5 +1,5 @@
 body {
-    background: #3494e6; /* fallback for old browsers */
+  background: #3494e6; /* fallback for old browsers */
   color: #484848;
   font-size: 15px;
 }
@@ -110,6 +110,16 @@ body {
   margin-top: 10px;
   text-overflow: ellipsis;
   overflow: hidden;
+}
+
+.side-projects .images {
+  margin-top: 20px;
+  text-align: center;
+}
+
+.side-projects .images img {
+  height: 300px;
+  border-radius: 3px;
 }
 
 @media only screen and (max-width: 600px) {

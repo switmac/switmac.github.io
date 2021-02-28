@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>macg</title>
+    <meta content="width=device-width, initial-scale=1" name="viewport" />
+    <link rel='shortcut icon' href='favicon.ico' type='image/x-icon'/ >
+    <link rel="stylesheet" type="text/css" href="main.css" />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Quicksand:wght@400;600&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="container">
+      <div class="cv">
+        <div class="header">
+          <div class="header__image">
+            <img
+              src="https://www.gravatar.com/avatar/49d1d553672f07f63ff8137126930c98?size=240&default=https%3A%2F%2Fs3-alpha.figma.com%2Fstatic%2Fuser_m_v2.png"
+            />
+          </div>
+          <div class="header__details">
+            <h1 class="name">Hi, I'm Marie Go!</h1>
+            <div class="occupation">
+              Computer Programmer <span class="dot"></span> Web Developer
+              <span class="dot"></span>
+              Software Engineer
+            </div>
+            <div class="introduction">
+              For the past 8 years of working in the industry, I've been able
+              build web and desktop enterprise applications. I've been into
+              roles of frontend and backend. Having been in a scrum master role
+              for past 2 years has helped me improved on my collaboration skills
+              and got me able to relate to my colleuages swiftly. My love for my
+              craft keeps me motivated. I'm a dedicated (hard/smart) worker and
+              fast learner. With the fast changing times, I try keep up with my
+              learnings by familiarizing new tools that will make development
+              smoother.
+            </div>
+          </div>
+        </div>
+        <div class="tools-skills">
+          <h4><i class="fa fa-flask"></i> Skills and Tools</h4>
+          <div class="columns">
+            <div>
+              <div class="title">SPA</div>
+              <div>AngularJS</div>
+              <div>ReactJS</div>
+              <div>VueJS</div>
+              <div>BackboneJS</div>
+              <div>Ionic</div>
+            </div>
+            <div>
+              <div class="title">Languages</div>
+              <div>Javascript</div>
+              <div>Java</div>
+              <div>Php</div>
+            </div>
+            <div>
+              <div class="title">Tools and 3rd Parties</div>
+              <div class="columns">
+                <div>
+                  <div>Git</div>
+                  <div>Jest</div>
+                  <div>Sass</div>
+                  <div>Outfit.io</div>
+                  <div>Rollout.io</div>
+                </div>
+                <div>
+                  <div>Wix</div>
+                  <div>Restlet</div>
+                  <div>JavaFx</div>
+                  <div>Shell Script</div>
+                  <div>Batch Script</div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="side-projects">
+          <h4><i class="fa fa-book"></i> Side Projects</h4>
+          <div>
+            <div>
+              <img
+                height="20"
+                src="https://ghtrends.herokuapp.com/static/media/line.a5ca7e27.svg"
+              />
+              <a href="https://ghtrends.herokuapp.com/">Github Trends</a>
+            </div>
+            <div>
+              Github trends lets you search Github for the top starred repositories,
+              most followed users and highly forked repositories. This is a non
+              official side project that is built in ReactApp and uses the
+              Github Search API. The application is deployed in Heroku for
+              hosting.
+            </div>
+            <div class="images">
+              <img height="300" src="./images/ghtrends.png" />
+            </div>
+          </div>
+        </div>
+        <div class="contact">
+          <h4>
+            <i class="fa fa-heart"></i> Reach me out thru these channels and
+            let's have a chat.
+          </h4>
+          <div>
+            <i class="fa fa-envelope"></i> :
+            <a href="mailto:marieantoinette.go@gmail.com"
+              >marieantoinette.go@gmail.com</a
+            >
+          </div>
+          <div>
+            <i class="fa fa-github" title="Github"></i> :
+            <a href="https://github.com/switmac" target="blank"
+              >https://github.com/switmac</a
+            >
+          </div>
+          <div>
+            <i class="fa fa-linkedin" title="LinkedIn"></i> :
+            <a
+              href="https://www.linkedin.com/in/marieantoinettego"
+              target="blank"
+              >https://www.linkedin.com/in/marieantoinettego</a
+            >
+          </div>
+        </div>
+      </div>
+    </div>
+    <script type="text/javascript">
+      function setRandomBackgroundColor() {
+        const bodyElem = document.getElementsByTagName("body")[0];
+        const bgClassNames = [
+          "bg-gradient-blue-pink",
+          "bg-gradient-teal-grey",
+          "bg-gradient-yellow-green",
+        ];
+        const randomIndex = Math.round(
+          Math.random() * (bgClassNames.length - 1)
+        );
+        const randomClass = bgClassNames[randomIndex];
+        bodyElem.classList.add(randomClass);
+      }
+      setRandomBackgroundColor();
+      setInterval(function() {
+        setRandomBackgroundColor();
+      }, 5000);
+    </script>
+  </body>
+</html>
