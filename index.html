@@ -1,153 +1,181 @@
-<!DOCTYPE html>
+<!DOCTYPE HTML>
+<!--
+	Solid State by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
 <html>
-  <head>
-    <title>macg</title>
-    <meta content="width=device-width, initial-scale=1" name="viewport" />
-    <link rel='shortcut icon' href='favicon.ico' type='image/x-icon'/ >
-    <link rel="stylesheet" type="text/css" href="main.css" />
-    <link
-      rel="stylesheet"
-      type="text/css"
-      href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css"
-    />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Quicksand:wght@400;600&display=swap"
-      rel="stylesheet"
-    />
-  </head>
-  <body>
-    <div class="container">
-      <div class="cv">
-        <div class="header">
-          <div class="header__image">
-            <img
-              src="https://www.gravatar.com/avatar/49d1d553672f07f63ff8137126930c98?size=240&default=https%3A%2F%2Fs3-alpha.figma.com%2Fstatic%2Fuser_m_v2.png"
-            />
-          </div>
-          <div class="header__details">
-            <h1 class="name">Hi, I'm Marie Go!</h1>
-            <div class="occupation">
-              Computer Programmer <span class="dot"></span> Web Developer
-              <span class="dot"></span>
-              Software Engineer
-            </div>
-            <div class="introduction">
-              For the past 8 years of working in the industry, I've been able
-              build web and desktop enterprise applications. I've been into
-              roles of frontend and backend. Having been in a scrum master role
-              for past 2 years has helped me improved on my collaboration skills
-              and got me able to relate to my colleuages swiftly. My love for my
-              craft keeps me motivated. I'm a dedicated (hard/smart) worker and
-              fast learner. With the fast changing times, I try keep up with my
-              learnings by familiarizing new tools that will make development
-              faster.
-            </div>
-          </div>
-        </div>
-        <div class="tools-skills">
-          <h4><i class="fa fa-flask"></i> Skills and Tools</h4>
-          <div class="columns">
-            <div>
-              <div class="title">SPA</div>
-              <div>AngularJS</div>
-              <div>ReactJS</div>
-              <div>VueJS</div>
-              <div>BackboneJS</div>
-              <div>Ionic</div>
-            </div>
-            <div>
-              <div class="title">Languages</div>
-              <div>Javascript</div>
-              <div>Java</div>
-              <div>Php</div>
-            </div>
-            <div>
-              <div class="title">Tools and 3rd Parties</div>
-              <div class="columns">
-                <div>
-                  <div>Git</div>
-                  <div>Jest</div>
-                  <div>Sass</div>
-                  <div>Outfit.io</div>
-                  <div>Rollout.io</div>
-                </div>
-                <div>
-                  <div>Wix</div>
-                  <div>Restlet</div>
-                  <div>JavaFx</div>
-                  <div>Shell Script</div>
-                  <div>Batch Script</div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="side-projects">
-          <h4><i class="fa fa-book"></i> Side Projects</h4>
-          <div>
-            <div>
-              <img
-                height="20"
-                src="https://ghtrends.herokuapp.com/static/media/line.a5ca7e27.svg"
-              />
-              <a href="https://ghtrends.herokuapp.com/">Github Trends</a>
-            </div>
-            <div>
-              Github trends lets you search Github for the top starred repositories,
-              most followed users and highly forked repositories. This is a non
-              official side project that is built in ReactApp and uses the
-              Github Search API. The application is deployed in Heroku for
-              hosting.
-            </div>
-            <div class="images">
-              <img height="300" src="./images/ghtrends.png" />
-            </div>
-          </div>
-        </div>
-        <div class="contact">
-          <h4>
-            <i class="fa fa-heart"></i> Reach me out thru these channels and
-            let's have a chat.
-          </h4>
-          <div>
-            <i class="fa fa-envelope"></i> :
-            <a href="mailto:marieantoinette.go@gmail.com"
-              >marieantoinette.go@gmail.com</a
-            >
-          </div>
-          <div>
-            <i class="fa fa-github" title="Github"></i> :
-            <a href="https://github.com/switmac" target="blank"
-              >https://github.com/switmac</a
-            >
-          </div>
-          <div>
-            <i class="fa fa-linkedin" title="LinkedIn"></i> :
-            <a
-              href="https://www.linkedin.com/in/marieantoinettego"
-              target="blank"
-              >https://www.linkedin.com/in/marieantoinettego</a
-            >
-          </div>
-        </div>
-      </div>
-    </div>
-    <script type="text/javascript">
-      function setRandomBackgroundColor() {
-        const bodyElem = document.getElementsByTagName("body")[0];
-        const bgClassNames = [
-          "bg-gradient-blue-pink",
-          "bg-gradient-teal-grey",
-          "bg-gradient-yellow-green",
-        ];
-        const randomIndex = Math.round(
-          Math.random() * (bgClassNames.length - 1)
-        );
-        const randomClass = bgClassNames[randomIndex];
-        console.log(randomClass, bodyElem);
-        bodyElem.classList.add(randomClass);
-      }
-      setRandomBackgroundColor();
-    </script>
-  </body>
+	<head>
+		<title>marie's porfolio</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+	</head>
+	<body class="is-preload">
+
+		<!-- Page Wrapper -->
+			<div id="page-wrapper">
+
+				<!-- Banner -->
+					<section id="banner">
+						<div class="inner">
+							<div class="logo"><span class="icon fa-gem"></span></div>
+							<h2>Hi I'm Marie Go.</h2>
+							<p>Computer Programmer • Web Developer • Software Engineer</p>
+						</div>
+					</section>
+
+				<!-- Wrapper -->
+					<section id="wrapper">
+
+						<!-- One -->
+							<section id="one" class="wrapper spotlight style1">
+								<div class="inner">
+									<a href="#" class="image"><img src="https://avatars.githubusercontent.com/u/3896300?s=460&u=133dea1ec647480315b8b11355f7dcc40ef6ca08&v=4" alt="" /></a>
+									<div class="content">
+										<h2 class="major">What About Me</h2>
+										<p>I am a graduate of BS in Computer Science from the <a href="https://www.msuiit.edu.ph/" target="_blank">MSU-IIT</a> <br>
+										For the past 8 years of working in the industry, I've been able build web and desktop enterprise applications. 
+										I've been into roles of frontend and backend. 
+										Having been in a scrum master role for past 2 years has helped me improved on my collaboration skills and got me able to relate to my colleagues swiftly. 
+										My love for my craft keeps me motivated. I'm a dedicated (hard/smart) worker and fast learner. 
+										With the fast changing times, I keep up with my learnings by familiarizing new tools and technology that will make development faster.</p
+									</div>
+								</div>
+							</section>
+
+						<!-- Two -->
+							<section id="two" class="wrapper alt spotlight style2">
+								<div class="inner">
+									<div class="content">
+										<h2 class="major">What I Do</h2>
+										<p>As the Scrum Master of the team, I facilitate our Agile ceremonies, 
+										communicate with the Product Managers regularly for goal alignments and deliverable updates 
+										and also assist in resolving roadblocks of the team</p>
+
+										<p>Aside from this, I work as a fulltime Developer. 
+										I have the same amount of workload as the others.
+										I develop features, do bug fixes, handle minor deployments and assist in support.
+										At the moment, I am doing frontend development.
+										But I am no stranger to backend development, as I had almost 4 years experience in doing fullstack.
+										</p>
+									</div>
+								</div>
+							</section>
+
+						<!-- Three -->
+							<section id="three" class="wrapper spotlight style3 tools-used">
+								<div class="inner">
+									<div class="content">
+										<h2 class="major">What Tools Have I Used</h2>
+										
+										<div class="flex first-row">
+											<div>
+												<h5>SPA</h5>
+												<img width="70" src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/cf/Angular_full_color_logo.svg/1200px-Angular_full_color_logo.svg.png" alt="AngularJS" title="AngularJS" />
+												<img width="90" src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/React-icon.svg/1280px-React-icon.svg.png" alt="ReactJS" title="ReactJS" />
+												<img width="50" class="vue-logo" src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/95/Vue.js_Logo_2.svg/1184px-Vue.js_Logo_2.svg.png" alt="VueJS" title="VueJS" />
+												<img width="50" class="backbone-logo" src="https://cdn.iconscout.com/icon/free/png-512/backbonejs-1175257.png" alt="BackboneJS" title="BackboneJS" />
+												<img width="50" class="ionic-logo curved-logo" src="https://www.clipartmax.com/png/middle/344-3447165_computer-icons-chemical-element-hydrogen-download-hydrogen-png.png" alt="Ionic" title="Ionic" />
+											</div>
+
+											<div>
+												<h5 class="heading-tools">LANGUAGES</h5>
+												<img width="50" class="logo curved-logo" src="https://upload.wikimedia.org/wikipedia/commons/6/6a/JavaScript-logo.png" alt="Javascript" title="Javascript" />
+												<img height="50" class="logo curved-logo" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTe4FcuwK6Lj5OfL70Dcq_5OPOOd-h91d3nOg&usqp=CAU" alt="Java" title="Java" />
+												<img height="40" class="logo" src="https://www.php.net//images/logos/new-php-logo.svg" alt="Php" alt="Php" />	
+											</div>
+										</div>
+										<div class="flex">
+											<div>
+												<h5 class="heading-tools">DATABASE</h5>
+												<img height="50" style="border-radius: 10%;" class="logo" src="https://static.thegeekstuff.com/wp-content/uploads/2017/02/postgresql-logo.png" alt="PostgreSQL" title="PostgreSQL" />
+												<img height="50" style="border-radius: 10%;" class="logo" src="https://i.pinimg.com/originals/3a/51/12/3a51129274fc2cf77ec774ed11845928.jpg" alt="MySQL" title="MySQL" />
+											</div>
+											<div>
+												<h5 class="heading-tools">OTHER TOOLS</h5>
+												<div class="flex">
+													<div>
+														<ul>
+															<li>Jest</li>
+															<li>Rollout.io</li>
+															<li>Outfit.io</li>
+															<li>Script (batch, shell)</li>
+															<li>Sass</li>
+														</ul>
+													</div>
+													<div>
+														<ul>
+															<li>Wix</li>
+															<li>Git</li>
+															<li>Restlet</li>
+															<li>JavaFx</li>
+														</ul>
+													</div>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+							</section>
+
+						<!-- Four -->
+							<section id="four" class="wrapper alt style1">
+								<div class="inner">
+									<h2 class="major">What Are My Works</h2>
+									<p>These are some of the projects I have contributed to over my journey.</p>
+									<section class="features">
+										<article>
+											<a href="#" class="image"><img src="images/lm-login.png" alt="lm-login" /></a>
+											<h3 class="major">Loan Market</h3>
+											<p>Loan Market is mortgage and lending application based in Australia and New Zealand. 
+												It is a CRM that aids brokers to process applications from start to finish.</p>
+											<a href="https://www.loanmarket.com.au/" target="_blank" class="special">See here</a>
+										</article>
+										<article>
+											<a href="#" class="image"><img src="images/m1-login.PNG" alt="m1-login" /></a>
+											<h3 class="major">M1 Integrated Business Process Software</h3>
+											<p>M1IBPS is an integrated business system for electric cooperative which composes of 
+												various modules like Human Resource System, Customer Information and Complaints System,
+												Warehouse and Inventory System Billing and Point of Sales System. 
+												It is an intranet desktop application that I've worked on from data gathering up to product delivery stage.</p>
+										</article>
+									</section>
+								</div>
+							</section>
+
+					</section>
+
+				<!-- Footer -->
+					<section id="footer">
+						<div class="inner">
+							<h2 class="major">Get in touch</h2>
+							<p>Reach me out thru these channels and let's have a chat.</p>
+							<ul class="contact">
+								<li class="icon solid fa-home">
+									Cagayan de Oro City<br />
+									Philippines, 9000
+								</li>
+								<li class="icon solid fa-envelope"><a href="mailto:marieantoinette.go@gmail.com">marieantoinette.go@gmail.com</a></li>
+								<li class="icon brands fa-linkedin"><a href="https://www.linkedin.com/in/marieantoinettego" target="_blank">https://www.linkedin.com/in/marieantoinettego</a></li>
+								<li class="icon brands fa-github"><a href="https://github.com/switmac" target="_blank">https://github.com/switmac</a></li>
+							</ul>
+							<ul class="copyright">
+								<li>All rights reserved. 2021</li>
+							</ul>
+						</div>
+					</section>
+
+			</div>
+
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/jquery.scrollex.min.js"></script>
+			<script src="assets/js/browser.min.js"></script>
+			<script src="assets/js/breakpoints.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
+
+	</body>
 </html>
